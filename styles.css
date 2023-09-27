@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.expense-form {
+    margin-bottom: 20px;
+}
+
+.expense-form input, .expense-form button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.expense-list {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.expense-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
